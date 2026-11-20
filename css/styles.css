@@ -196,7 +196,7 @@ button[type="submit"]:hover {
 
 .about-section {
   background:
-    linear-gradient(135deg, rgba(24, 21, 18, 0.85), rgba(24, 21, 18, 0.80)),
+    linear-gradient(135deg, rgba(24, 21, 18, 0.72), rgba(24, 21, 18, 0.45)),
     url("../images/about_bg.jpg") center / cover no-repeat;
   color: #f7f4ef;
 }
@@ -208,6 +208,13 @@ button[type="submit"]:hover {
 
 .about-section p {
   color: #efeae2;
+}
+
+/* about page story card (about.html only) */
+.about-story {
+  background:
+    linear-gradient(135deg, rgba(24, 21, 18, 0.85), rgba(24, 21, 18, 0.80)),
+    url("../images/about_bg.jpg") center / cover no-repeat;
 }
 
 /* tables */
