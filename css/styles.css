@@ -238,7 +238,14 @@ button[type="submit"]:hover {
 .about-story h3 {
   margin: 28px 0 8px;
 }
+/* about page closing call to action */
+.about-cta {
+  padding: 16px 20px 48px;
+}
 
+.about-cta h2 {
+  margin: 0 0 18px;
+}
 /* tables */
 .table-wrap {
   overflow-x: auto;
