@@ -125,6 +125,12 @@ nav a:hover,
   align-items: center;
 }
 
+.about-hero {
+  background:
+    linear-gradient(180deg, rgba(27, 25, 23, 0.55), rgba(27, 25, 23, 0.78)),
+    url("../images/About_2.jpg") center / cover no-repeat;
+}
+
 .hero h1 {
   font-size: clamp(28px, 5vw, 44px);
   margin: 0 0 10px;
