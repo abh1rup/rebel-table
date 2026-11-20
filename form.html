@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Rebel Table</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<nav class="site-nav main-nav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="form.html" class="active">Contact</a></li>
+    <li>
+      <a href="https://olemiss.edu/student-life/campus-living/dining/"
+         target="_blank" rel="noopener noreferrer">
+        Ole Miss Dining
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <h1>Contact Us</h1>
+  <p>Reserve a table, ask a question, or leave feedback.</p>
+  <a class="btn" href="menu.html">View Menu</a>
+</header>
+
+<main>
+  <h2 class="center">Get in touch</h2>
+
+  <form id="contactForm">
+    <label for="firstName">First Name*</label>
+    <input id="firstName" type="text" name="firstName" required>
+
+    <label for="lastName">Last Name*</label>
+    <input id="lastName" type="text" name="lastName" required>
+
+    <label for="email">Email*</label>
+    <input id="email" type="email" name="email" required>
+
+    <label for="phone">Phone</label>
+    <input id="phone" type="tel" name="phone" placeholder="662-555-0194">
+
+    <label for="message">Message (max 500 characters)</label>
+    <textarea id="message"
+              name="message"
+              maxlength="500"
+              rows="5"
+              placeholder="Write your message here…"></textarea>
+
+    <button type="submit" class="btn">Submit</button>
+    <div id="formFeedback" class="form-feedback" role="status" aria-live="polite"></div>
+  </form>
+
+  <section class="menu-photo">
+    <figure>
+      <img src="Food3.jpg" alt="Close up of pizza getting cooked.">
+      <figcaption>
+        Photo by
+        <a href="https://unsplash.com/@stefanjonhson" target="_blank" rel="noopener noreferrer">Stefan Johnson</a>
+        on <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>
+      </figcaption>
+    </figure>
+  </section>
+</main>
+
+<footer>&copy; 2025 Rebel Table</footer>
+</body>
+</html>
