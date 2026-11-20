@@ -215,6 +215,22 @@ button[type="submit"]:hover {
   background:
     linear-gradient(135deg, rgba(24, 21, 18, 0.85), rgba(24, 21, 18, 0.80)),
     url("../images/about_bg.jpg") center / cover no-repeat;
+  align-items: stretch;
+}
+
+.about-story h2,
+.about-story h3 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.about-story h2 {
+  margin: 0 0 16px;
+}
+
+.about-story h3 {
+  margin: 28px 0 8px;
 }
 
 /* tables */
