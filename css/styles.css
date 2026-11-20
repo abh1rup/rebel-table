@@ -197,7 +197,7 @@ button[type="submit"]:hover {
 .about-section {
   background:
     linear-gradient(135deg, rgba(24, 21, 18, 0.72), rgba(24, 21, 18, 0.45)),
-    url("../about_bg.jpg") center / cover no-repeat;
+    url("../images/about_bg.jpg") center / cover no-repeat;
   color: #f7f4ef;
 }
 
