@@ -49,5 +49,5 @@ window.addEventListener("load", () => {
   if (!name) return; // direct visit or refresh: no alert
 
   sessionStorage.removeItem("formSubmitted");
-  alert(`Thank you, ${name}! We received your message and will reply shortly.`);
+  alert(`Thank you, ${name}! Your form demonstration has been completed successfully.`);
 });
