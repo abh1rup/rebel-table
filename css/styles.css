@@ -269,6 +269,15 @@ thead th {
   font-weight: 700;
 }
 
+tbody th {
+  background: #e8e1d7;
+  color: #24211e;
+  padding: 14px 16px;
+  text-align: left;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
 tbody td {
   border-top: 1px solid #ebe5dc;
   padding: 12px 14px;
