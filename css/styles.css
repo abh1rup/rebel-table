@@ -1,3 +1,14 @@
+/*
+  Student: Abhirup Chatterjee
+  Course: BAIS 4120 - Client-Side Web Application Development
+  Semester: Fall 2026
+  Project: Rebel Table Semester Project
+  File: styles.css
+  Purpose: Provides shared styling for all Rebel Table pages,
+           including navigation, backgrounds, typography, tables,
+           forms, images, and responsive layouts.
+*/
+
 /* base & reset */
 *,
 *::before,
