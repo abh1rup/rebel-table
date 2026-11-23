@@ -9,12 +9,15 @@ const weeklySpecials = [
   "Saturday: Seasonal Vegetable Plate for $9"
 ];
 
+// starts on today's day, then advances one day per click
+let dayIndex = new Date().getDay();
+
 function getSpecial() {
   const specialEl = document.getElementById("specialText");
   if (!specialEl) return;
 
-  const dayIndex = new Date().getDay();
   specialEl.textContent = weeklySpecials[dayIndex];
+  dayIndex = (dayIndex + 1) % 7;
 }
 
 // contact form submission
