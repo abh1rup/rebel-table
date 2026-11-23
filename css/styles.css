@@ -365,20 +365,6 @@ form button[type="submit"] {
   margin-top: 8px;
 }
 
-.form-feedback {
-  margin-top: 14px;
-  padding: 12px 14px;
-  border-radius: 6px;
-  background: #eef6f0;
-  color: #235332;
-  font-size: 14px;
-  border: 1px solid #c7e0ce;
-  display: none;
-}
-
-.form-feedback.visible {
-  display: block;
-}
 
 /* figures & photo cards */
 figure {
