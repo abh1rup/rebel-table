@@ -1,3 +1,14 @@
+/*
+  Student: Abhirup Chatterjee
+  Course: BAIS 4120 - Client-Side Web Application Development
+  Semester: Fall 2026
+  Project: Rebel Table Semester Project
+  File: main.js
+  Purpose: Provides interactive daily specials, contact form
+           confirmation and cancellation behavior, redirection
+           to the Thank You page, and a personalized alert.
+*/
+
 // daily specials by day of week (0 = Sunday)
 const weeklySpecials = [
   "Sunday: Closed — See you Monday!",
