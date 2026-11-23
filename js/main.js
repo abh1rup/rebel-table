@@ -1,12 +1,12 @@
 // daily specials by day of week (0 = Sunday)
 const weeklySpecials = [
-  "Sunday Brunch: Wood-fired shakshuka and sourdough toast — $11",
-  "Monday: $3 off any house pizza after 5 PM",
-  "Tuesday: Half-price bruschetta with any entrée",
-  "Wednesday: Margherita pizza & house salad combo — $14",
-  "Thursday: Free tiramisu with two pasta orders",
-  "Friday: Late-night flatbreads & draft specials until 10 PM",
-  "Saturday: Chef's seasonal roasted vegetable bowl — $12"
+  "Sunday: Closed — See you Monday!",
+  "Monday: $2 off the Fried Chicken Plate",
+  "Tuesday: Fried Green Tomatoes for $6",
+  "Wednesday: Catfish Po’ Boy with a side for $13",
+  "Thursday: Free Skillet Cornbread with any Southern Favorite",
+  "Friday: Shrimp & Grits for $13",
+  "Saturday: Seasonal Vegetable Plate for $9"
 ];
 
 function getSpecial() {
