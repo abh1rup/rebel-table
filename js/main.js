@@ -28,16 +28,26 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    const firstName = document.getElementById("firstName").value.trim();
-    const feedback = document.getElementById("formFeedback");
+    const confirmed = confirm("Are you sure you want to submit your message?");
 
-    if (feedback) {
-      feedback.textContent = `Thanks, ${firstName || "friend"} — we got your message and will reply shortly.`;
-      feedback.classList.add("visible");
-    }
+    if (confirmed) {
+      const firstNameEl = document.getElementById("firstName");
+      const firstName = firstNameEl ? firstNameEl.value.trim() : "";
 
-    setTimeout(() => {
+      // remember that this visitor confirmed a submission
+      sessionStorage.setItem("formSubmitted", firstName || "friend");
+
       window.location.href = "thankyou.html";
-    }, 1100);
+    }
+    // Cancel: do nothing, visitor stays on the Contact page
   });
+});
+
+// thank-you alert (only after a confirmed submission)
+window.addEventListener("load", () => {
+  const name = sessionStorage.getItem("formSubmitted");
+  if (!name) return; // direct visit or refresh: no alert
+
+  sessionStorage.removeItem("formSubmitted");
+  alert(`Thank you, ${name}! We received your message and will reply shortly.`);
 });
