@@ -192,7 +192,7 @@ button[type="submit"]:hover {
   align-items: center;
 }
 
-.about-section h1,
+.about-section h2,
 .hours-section h2,
 .menu-section h1 {
   margin: 0 0 20px;
@@ -207,7 +207,7 @@ button[type="submit"]:hover {
   color: #f7f4ef;
 }
 
-.about-section h1 {
+.about-section h2 {
   color: #fff;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
