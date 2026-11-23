@@ -208,6 +208,10 @@ button[type="submit"]:hover {
   text-align: center;
 }
 
+/* About section background photo:
+   Photographer: Chad Montano, Unsplash
+   https://unsplash.com/photos/pizza-on-chopping-board-MqT0asuoIcU
+*/
 .about-section {
   background:
     linear-gradient(135deg, rgba(24, 21, 18, 0.72), rgba(24, 21, 18, 0.45)),
