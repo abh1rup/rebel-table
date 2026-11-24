@@ -60,5 +60,5 @@ window.addEventListener("load", () => {
   if (!name) return; // direct visit or refresh: no alert
 
   sessionStorage.removeItem("formSubmitted");
-  alert(`Thank you, ${name}! We're glad you reached out to Rebel Table. We hope to see you soon!.`);
+  alert(`Thank you, ${name}! We're glad you reached out to Rebel Table. We hope to see you soon!`);
 });
